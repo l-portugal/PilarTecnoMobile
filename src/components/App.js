@@ -1,13 +1,14 @@
 import React, { Component, useCallback } from 'react';
-import { 
-    View, 
-    Text
-} from 'react-native';
-import Home from '../screens/Home'
+
+import { NavigationContainer } from '@react-navigation/native';
+
+import AppStack from '../routes/AppStack';
 
 export default App = () => {
 
     return(
-        <Home />
+        <NavigationContainer>
+                <AppStack />
+        </NavigationContainer>
     )
 }
