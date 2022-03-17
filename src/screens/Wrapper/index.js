@@ -15,7 +15,7 @@ export default (props) => {
       <View style={ styles.container }>
         
         <Pressable
-          onPress={() => props.navigate('Home') }
+          onPress={() => props.navigate.goBack(null) }
           style={ styles.backButton }
         >
           <Icon reverse raised

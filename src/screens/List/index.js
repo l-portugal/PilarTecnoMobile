@@ -9,7 +9,7 @@ export default (props) => {
 
   return (
     <SafeAreaView style={styles.container} >
-      <Wrapper title="Lista" navigate={props.navigation.navigate}>
+      <Wrapper title="Lista" navigate={props.navigation}>
         <View style={styles.mainContent}>
           <Text style={styles.title}>List View</Text>
         </View>

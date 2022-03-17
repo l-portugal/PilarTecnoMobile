@@ -8,7 +8,7 @@ import Wrapper from '../Wrapper';
 export default (props) => {
   return (
     <SafeAreaView style={styles.container}>
-      <Wrapper title="Perfil" navigate={props.navigation.navigate}>
+      <Wrapper title="Perfil" navigate={props.navigation}>
         <View style={styles.mainContent}>
           <Text style={styles.title}>Profile View</Text>
         </View>

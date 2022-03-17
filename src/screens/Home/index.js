@@ -5,7 +5,8 @@ import {
     Text,
     Pressable,
     ImageBackground,
-    Alert
+    Alert,
+    StatusBar
 } from 'react-native';
 import { Icon } from 'react-native-elements';
 import { styles } from './styles'
@@ -18,6 +19,14 @@ export default Home = (props) => {
 
     return (
         <SafeAreaView style={styles.container}>
+            
+            <StatusBar
+                animated={true}
+                backgroundColor="#00abf1"
+                barStyle='default'
+                showHideTransition='fade'
+                hidden={false} />
+    
             <ImageBackground source={image} style={ styles.image }>
                 <Text style={ styles.title2 }>Bienvenido</Text>
                 <View style={styles.mainContent}>
