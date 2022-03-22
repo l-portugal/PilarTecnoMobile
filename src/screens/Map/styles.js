@@ -7,7 +7,8 @@ export const styles = StyleSheet.create({
   title:{
     fontSize: 24,
     alignSelf: 'center',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: '#777777'
   },
   mainContent: {
     flex: 1,

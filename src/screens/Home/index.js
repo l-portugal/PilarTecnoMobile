@@ -20,12 +20,7 @@ export default Home = (props) => {
     return (
         <SafeAreaView style={styles.container}>
             
-            <StatusBar
-                animated={true}
-                backgroundColor="#00abf1"
-                barStyle='default'
-                showHideTransition='fade'
-                hidden={false} />
+            <StatusBar translucent backgroundColor="transparent" />
     
             <ImageBackground source={image} style={ styles.image }>
                 <Text style={ styles.title2 }>Bienvenido</Text>

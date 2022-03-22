@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   backButton: {
-    marginTop: width/9, 
+    marginTop: width/7, 
     flex:1
   },
   title: {
@@ -23,6 +23,6 @@ export const styles = StyleSheet.create({
     fontSize: 48,
     fontWeight: 'bold',
     color: '#eee',
-    marginTop: width/10
+    marginTop: width/8
   }
 })
