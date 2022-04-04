@@ -3,9 +3,10 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 import { Tabs } from './Tabs';
-import List from '../screens/List'
-import Profile from '../screens/Profile'
-import Map from '../screens/Map'
+import List from '../screens/List';
+import ListDetails from '../screens/List/details';
+import Profile from '../screens/Profile';
+import Map from '../screens/Map';
 import Login from '../screens/Auth/SignIn';
 import { useSelector } from 'react-redux';
 
@@ -26,6 +27,7 @@ export default AppStack = (props) => {
       }
 
       <Stack.Screen name="List" component={List} />
+      <Stack.Screen name="ListDetails" component={ListDetails} />
       <Stack.Screen name="Map" component={Map} />
       <Stack.Screen name="Profile" component={Profile} />
 

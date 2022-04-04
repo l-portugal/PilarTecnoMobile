@@ -14,13 +14,13 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   backButton: {
-    marginTop: width/7, 
+    marginTop: width/9, 
     flex:1
   },
   title: {
     flex:2,
     textAlign: 'center',
-    fontSize: 48,
+    fontSize: width/16,
     fontWeight: 'bold',
     color: '#eee',
     marginTop: width/8
